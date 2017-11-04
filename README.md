@@ -17,10 +17,11 @@ This repository contains the supporting code for the paper:
 * Eigen
 * Boost (for RegEx parsing)
 * HDF5
-* Eigen3-HDF5
-* cxxopts
+* [eigen3-hdf5](https://github.com/garrison/eigen3-hdf5)
+* [cxxopts](https://github.com/jarro2783/cxxopts)
 * [MOSEK](https://www.mosek.com/) (optional for estimating Wasserstein distances via LP)
 
 ## Getting started
-1. First compile the main barycenter function via `make barycenter_mpi`.
+1. Edit the Makefile to point to your local copys of the dependencies.
+1. Compile the main barycenter function via `make barycenter_mpi`.
 2. Then run experiments as in the included shell scripts.
