@@ -42,3 +42,8 @@ b,burniniters --  Number of burn-in iters for MCMC chain
 f,fullsampler --  Whether to get samples from the full MCMC chain
 p,datapoints --  Number of datapoints to use (for the skin example; useful for testing more quickly)
 ```
+4. Plots can then be generated via the included Matlab scripts (be sure to point these scripts to your output directory!). Specifically,
+* `skin_wasp_compare` compares our stochastic approach to the standard linear programming barycenter algorithm for WASP.
+* `plot_cpp_output_vmf` produces output images for our Von Mises-Fisher experiments
+* `plot_cpp_output_skin` gives some example diagnostic plots for the UCI experiments
+* the scripts in `scripts` produce convergence plots of our barycenter estimate for the UCI experiments
