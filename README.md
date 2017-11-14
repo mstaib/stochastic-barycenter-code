@@ -22,7 +22,7 @@ This repository contains the supporting code for the paper:
 * [MOSEK](https://www.mosek.com/) (optional for estimating Wasserstein distances via LP)
 
 ### Data
-* [UCI skin segmentation dataset](https://archive.ics.uci.edu/ml/datasets/skin+segmentation)
+* [UCI skin segmentation dataset](https://archive.ics.uci.edu/ml/datasets/skin+segmentation). We slightly changed the format and hence include a local copy in `input_data`.
 
 ## Getting started
 1. Edit the Makefile to point to your local copys of the dependencies.
