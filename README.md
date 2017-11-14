@@ -15,7 +15,6 @@ This repository contains the supporting code for the paper:
 ## Dependencies
 * MPI
 * Eigen
-* Boost (for RegEx parsing)
 * HDF5
 * [eigen3-hdf5](https://github.com/garrison/eigen3-hdf5)
 * [cxxopts](https://github.com/jarro2783/cxxopts)

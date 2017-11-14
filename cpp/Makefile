@@ -3,7 +3,7 @@ OBJS_MPI = $(OBJS_SHARED) barycenter_mpi.o
 CC = mpic++
 CFLAGS = -Wall -Wextra -Wformat=2 -c -g -O0 -std=c++11 -march=native -pthread
 LFLAGS = -Wall -Wextra -Wformat=2 -g -O0 -std=c++11 -march=native -pthread
-LIB = -lhdf5_cpp -lhdf5 -lboost_regex 
+LIB = -lhdf5_cpp -lhdf5
 INCLUDE = -I/usr/include/eigen3/ -Icxxopts/include/ -Ieigen3-hdf5/
 
 barycenter_mpi: $(OBJS_MPI)
